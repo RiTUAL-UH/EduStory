@@ -33,7 +33,7 @@ parser.add_argument("--pooling", default="mean")
 parser.add_argument(
     "--negs_to_use",
     default=None,
-    help="From which systems should negatives be used? Multiple systems seperated by comma. None = all",
+    help="From which systems should negatives be used? Multiple systems separated by comma. None = all",
 )
 parser.add_argument("--warmup_steps", default=100, type=int)
 parser.add_argument("--lr", default=2e-5, type=float)
